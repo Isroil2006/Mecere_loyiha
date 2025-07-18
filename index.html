@@ -5,19 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Mecare Responsive</title>
   </head>
-  <body>
+  <body class="bg-white">
     <div class="isroil_work"></div>
-
-    <div
-      class="ismoil_work flex flex-col items-center justify-center min-h-screen text-center gap-[40px]"
-    >
-      <section
-        class="doctors flex flex-col items-center justify-center text-center gap-[20px]"
-      >
-        <h1
-          class="text-[60px] font-bold text-center leading-[62px] tracking-normal"
+    <div class="ismoil_work flex flex-col items-center min-h-screen gap-10 px-2 sm:px-6 md:px-12">
+      <section class="doctors flex flex-col items-center text-center gap-5 w-full">
+               <h1
+          class="text-3x1 sm:text-5xl md:text-6xl font-bold text-center "
         >
           <span class="items-center justify-center">
             Designed for
@@ -31,286 +30,249 @@
             leading healthcare excellence.
           </span>
         </h1>
-
-        <p class="text-[18px] leading-[28px] text-gray-600 max-w-2xl">
-          Empowering healthcare professionals with tailored technology solutions
-          to deliver exceptional patient care.
+        <p class="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+          Empowering healthcare professionals with tailored technology solutions to deliver exceptional patient care.
         </p>
-
-        <div class="max-w-[1900px] overflow- flex justify-center gap-[20px]">
-          <img src="images/item.png" alt="" />
-          <img src="images/item(1).png" alt="" />
-          <img src="images/item(2).png" alt="" />
-          <img src="images/item(3).png" alt="" />
-          <img src="images/item(4).png" alt="" />
-          <img src="images/item(5).png" alt="" />
+        <div class="w-full overflow-x-auto flex justify-center gap-4 ">
+          <img src="images/item.png" alt="" class="w-40 sm:w-48 md:w-52" />
+          <img src="images/item(1).png" alt="" class="w-40 sm:w-48 md:w-52" />
+          <img src="images/item(2).png" alt="" class="w-40 sm:w-48 md:w-52" />
+          <img src="images/item(3).png" alt="" class="w-40 sm:w-48 md:w-52" />
+          <img src="images/item(4).png" alt="" class="w-40 sm:w-48 md:w-52" />
+          <img src="images/item(5).png" alt="" class="w-40 sm:w-48 md:w-52" />
         </div>
-        <div class="flex items-center justify-center gap-[600px]">
-          <div class="flex gap-2 mt-6">
+        <div class="flex items-center justify-between w-full max-w-2xl mt-4">
+          <div class="flex gap-2">
             <div class="w-8 h-2.5 rounded-full bg-[#5ABEAF]"></div>
             <div class="w-2.5 h-2.5 rounded-full bg-[#CFF1EC]"></div>
             <div class="w-2.5 h-2.5 rounded-full bg-[#CFF1EC]"></div>
           </div>
-
-          <div class="flex items-center gap-4 mt-4">
-            <button
-              class="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-[12px] text-gray-500 hover:bg-gray-100"
-            >
-              <svg
-                class="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
+          <div class="flex items-center gap-4">
+            <button class="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-xl text-gray-500 hover:bg-gray-100">
+              <i class="fa-solid fa-arrow-left"></i>
             </button>
-
-            <button
-              class="w-10 h-10 flex items-center justify-center bg-[#64D3C2] rounded-[12px] text-white shadow-lg hover:bg-blue-600"
-            >
-              <svg
-                class="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
+            <button class="w-10 h-10 flex items-center justify-center bg-[#64D3C2] rounded-xl text-white shadow-lg hover:bg-blue-600">
+              <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
         </div>
       </section>
-
-      <section class="aboutDrHassan">
-        <div class="flex flex-col justify-center">
-          <h1
-            class="text-[60px] font-bold text-center leading-[62px] tracking-norma"
-          >
-            What Patients Are Saying <br />
-            About Dr. Hassan
-          </h1>
-
-          <div class="flex justify-center gap-[50px] mt-10 w-[1000px]">
-            <div class="relative w-[400px] h-[444px]">
-              <div
-                class="absolute top-[100px] right-[200px] w-[263px] h-[400px] rounded-[16px] bg-[#E8F8F6] z-0"
-              ></div>
-
-              <img
-                src="images/DR.Hasan.png"
-                alt="Doctor"
-                class="absolute top-0 left-0 w-[400px] h-[444px]"
-              />] rounded-[16px] z-10 object-cover">
+      <section class="aboutDrHassan w-full">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 mt-8">
+          <div class="relative w-full max-w-xs md:max-w-md h-72 md:h-[444px]">
+            <div class="absolute top-16 right-8 md:right-24 w-40 md:w-64 h-48 md:h-96 rounded-xl bg-[#E8F8F6] z-0"></div>
+            <img src="images/DR.Hasan.png" alt="Doctor" class="absolute top-0 left-0 w-full h-full rounded-xl z-10 object-cover" />
+          </div>
+          <div class="w-full max-w-md text-left flex flex-col gap-5 items-start mt-8 md:mt-0">
+            <img src="images/“.png" alt="" class="w-8" />
+            <p class="text-base md:text-lg text-gray-600">
+              Dr. Hassan is truly exceptional. His expertise, kindness, and genuine care for his patients are evident in every interaction. I always feel heard and well taken care of. Highly recommend!
+            </p>
+            <img src="images/“(1).png" alt="" class="w-8" />
+            <div>
+              <div class="flex items-center gap-2">
+                <img src="images/Avatar [1.0].png" alt="" class="w-8" />
+                <h3 class="font-bold text-lg">Eleanor Pena</h3>
+              </div>
+              <p class="text-base text-gray-600">Slack Inc, New York team</p>
             </div>
-            <div
-              class="w-[400px] text-left flex flex-col gap-[20px] items-start"
-            >
-              <img src="images/“.png" alt="" />
-              <p class="text-[18px] leading-[28px] text-gray-600 max-w-2xl">
-                Dr. Hassan is truly exceptional. His expertise, kindness, and
-                genuine care for his patients are evident in every interaction.
-                I always feel heard and well taken care of. Highly recommend!
-              </p>
-              <img src="images/“(1).png" alt="" />
-              <div>
-                <div class="flex items-center gap-2">
-                  <img src="images/Avatar [1.0].png" alt="" />
-                  <h3 class="font-bold text-[24px]">Eleanor Pena</h3>
-                </div>
-                <p class="text-[18px] text-gray-600">
-                  Slack Inc, New York team
-                </p>
-              </div>
-              <div class="flex items-center gap-4 mt-4">
-                <button
-                  class="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-[12px] text-gray-500 hover:bg-gray-100"
-                >
-                  <svg
-                    class="w-5 h-5"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 19l-7-7 7-7"
-                    />
-                  </svg>
-                </button>
-
-                <button
-                  class="w-10 h-10 flex items-center justify-center bg-[#64D3C2] rounded-[12px] text-white shadow-lg hover:bg-blue-600"
-                >
-                  <svg
-                    class="w-5 h-5"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </button>
-              </div>
+            <div class="flex items-center gap-4 mt-2">
+              <button class="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-xl text-gray-500 hover:bg-gray-100">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="w-10 h-10 flex items-center justify-center bg-[#64D3C2] rounded-xl text-white shadow-lg hover:bg-blue-600">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </div>
           </div>
         </div>
       </section>
-
-      <section class="plan mt-40">
-        <div class="flex flex-col gap-[20px]">
-          <h1 class="text-[60px] font-bold text-center leading-[62px]">
+      <section class="plan w-full mt-16">
+        <div class="flex flex-col gap-5">
+          <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold text-center leading-tight">
             Choose your pricing plan
           </h1>
-          <p class="text-[18px] leading-[28px] text-gray-600 max-w-2xl">
-            Browse through our tailored pricing plans and choose the one that
-            best fits your needs.
+          <p class="text-base sm:text-lg text-gray-600 text-center">
+            Browse through our tailored pricing plans and <br class="hidden sm:block" />
+            choose the one that best fits your needs.
           </p>
-          <div class="flex items-center justify-center gap-[20px]">
+          <div class="flex items-center justify-center gap-4">
             <span>Monthly</span>
-            <label class="relative inline-block w-[46px] h-[30px]">
+            <label class="relative inline-block w-12 h-7">
               <input type="checkbox" class="peer sr-only" />
-              <div
-                class="w-full h-full bg-gray-300 peer-checked:bg-[#5ABEAF] rounded-full transition duration-300"
-              ></div>
-              <div
-                class="absolute top-[2px] left-[2px] w-[26px] h-[26px] bg-white rounded-full transition-all duration-300 peer-checked:translate-x-[16px]"
-              ></div>
+              <div class="w-full h-full bg-gray-300 peer-checked:bg-[#5ABEAF] rounded-full transition duration-300"></div>
+              <div class="absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full transition-all duration-300 peer-checked:translate-x-5"></div>
             </label>
             <span>Yearly</span>
           </div>
-          <div class="flex gap-[20px]">
-            <div class="w-[538px] h-[535px] bg-[#F0FBF9] flex flex-col items-start justify-center rounded-[16px] p-8 gap-[10px]">
-              <h3 class="text-[30px] font-bold">Basic Package</h3>
-              <p class="text-[18px] text-gray-600 text-start">
-                Vital Tools for Streamlined Healthcare <br />
-                Management
-              </p>
-              <h1 class="text-[40px] text-[#5ABEAF]">
-                $25 <span class="text-[20px] text-gray-300">/month</span>
-              </h1>
-              <hr class="border-gray-300 my-4" />
-                <ul class="space-y-4 text-left">
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-gray-700"
-                      >Essential Healthcare management</span
-                    >
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-gray-700"
-                      >Simplicity and affordability</span
-                    >
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-gray-700"
-                      >Comprehensive Healthcare Management</span
-                    >
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-gray-700">Cost-Effective Solution</span>
-                  </li>
-                </ul>
-
-              <button
-                class="w-full border-[1px] border-gray-300 h-[50px] bg-[#ffff] text-black rounded-[12px] mt-4 hover:bg-[#64D3C2] transition duration-300"> Choose Your Plan 
+          <div class="flex flex-col md:flex-row gap-6 items-center justify-center mt-6">
+            <div class="w-full max-w-md bg-[#F0FBF9] flex flex-col items-start rounded-xl p-6 gap-3">
+              <h3 class="text-2xl font-bold">Basic Package</h3>
+              <p class="text-base text-gray-600">Vital Tools for Streamlined Healthcare <br /> Management</p>
+              <h1 class="text-3xl text-[#5ABEAF]">$25 <span class="text-lg text-gray-300">/month</span></h1>
+              <hr class="border-gray-300 my-2 w-full" />
+              <ul class="space-y-3 text-left">
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-gray-700">Essential Healthcare management</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-gray-700">Simplicity and affordability</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-gray-700">Comprehensive Healthcare Management</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-gray-700">Cost-Effective Solution</span>
+                </li>
+              </ul>
+              <button class="w-full border border-gray-300 h-12 bg-white text-black rounded-xl mt-4 hover:bg-[#64D3C2] transition duration-300">
+                Choose Your Plan
               </button>
             </div>
-            <div class="w-[538px] h-[535px] bg-[#1C404C] flex flex-col items-start justify-center rounded-[16px] p-8 gap-[10px]">
-              <h3 class="text-[30px] font-bold text-white">Pro Package</h3>
-              <p class="text-[18px] text-white text-start">
-                Cutting-Edge Tools for Effortless <br> Healthcare Management
-              </p>
-              <h1 class="text-[40px] text-[#ffffff]">
-                $99 <span class="text-[20px] text-white-300">/month</span>
-              </h1>
-              <hr class="border-gray-300 my-4" />
-                <ul class="space-y-4 text-left ">
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-[#ffffff]"
-                      >Essential Healthcare management</span
-                    >
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-[#ffffff]"
-                      >Simplicity and affordability</span
-                    >
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-[#ffffff]"
-                      >Comprehensive Healthcare Management</span
-                    >
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <span
-                      class="flex items-center justify-center w-[23.75px] h-[23.75px] rounded-full bg-[#5ABEAF] text-white text-sm"
-                    >
-                      ✓
-                    </span>
-                    <span class="text-[#ffffff]">Cost-Effective Solution</span>
-                  </li>
-                </ul>
-
-              <button
-                class="w-full border-[1px] border-gray-300 h-[50px] bg-[#5ABEAF] text-black rounded-[12px] mt-4 hover:bg-[#ffff] transition duration-300"> Choose Your Plan 
+            <div class="w-full max-w-md bg-[#1C404C] flex flex-col items-start rounded-xl p-6 gap-3">
+              <h3 class="text-2xl font-bold text-white">Pro Package</h3>
+              <p class="text-base text-white">Cutting-Edge Tools for Effortless <br /> Healthcare Management</p>
+              <h1 class="text-3xl text-white">$99 <span class="text-lg text-white/70">/month</span></h1>
+              <hr class="border-gray-300 my-2 w-full" />
+              <ul class="space-y-3 text-left">
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-white">Essential Healthcare management</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-white">Simplicity and affordability</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-white">Comprehensive Healthcare Management</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="flex items-center justify-center w-6 h-6 rounded-full bg-[#5ABEAF] text-white text-sm">✓</span>
+                  <span class="text-white">Cost-Effective Solution</span>
+                </li>
+              </ul>
+              <button class="w-full border border-gray-300 h-12 bg-[#5ABEAF] text-black rounded-xl mt-4 hover:bg-white transition duration-300">
+                Choose Your Plan
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="health w-full mt-16">
+        <div class="flex flex-col gap-5 items-center">
+          <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold text-center leading-tight">
+            Health Horizons & Insights
+          </h1>
+          <p class="text-base sm:text-lg text-gray-600 max-w-2xl text-center">
+            Explore the latest trends, expert advice, and in-depth <br class="hidden sm:block" />
+            analyses on a wide range of health topics.
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8">
+          <div class="w-full max-w-xs flex flex-col text-start rounded-xl gap-3 shadow-lg bg-white">
+            <img src="images/illustrations(1).png" alt="" class="rounded-t-xl" />
+            <div class="p-4 flex flex-col gap-2">
+              <span class="text-xs text-gray-600">Healthcare services</span>
+              <h1 class="text-lg font-semibold">Our Dedication to Enhancing Your Overall Wellness</h1>
+              <p class="text-xs text-gray-500">We take immense pride in nurturing your vitality, dedicating ourselves to supporting your health an...</p>
+              <p class="text-gray-700 text-xs">24 august 2024</p>
+            </div>
+          </div>
+          <div class="w-full max-w-xs flex flex-col text-start rounded-xl gap-3 shadow-lg bg-white">
+            <img src="images/illustration.png" alt="" class="rounded-t-xl" />
+            <div class="p-4 flex flex-col gap-2">
+              <span class="text-xs text-gray-600">Eye care services</span>
+              <h1 class="text-lg font-semibold">Our Dedication to Enhancing Your Overall Wellness</h1>
+              <p class="text-xs text-gray-500">We take immense pride in nurturing your vitality, dedicating ourselves to supporting your health an...</p>
+              <p class="text-gray-700 text-xs">24 august 2024</p>
+            </div>
+          </div>
+          <div class="w-full max-w-xs flex flex-col text-start rounded-xl gap-3 shadow-lg bg-white">
+            <img src="images/illustrations(2).png" alt="" class="rounded-t-xl" />
+            <div class="p-4 flex flex-col gap-2">
+              <span class="text-xs text-gray-600">Healthcare services</span>
+              <h1 class="text-lg font-semibold">Our Dedication to Enhancing Your Overall Wellness</h1>
+              <p class="text-xs text-gray-500">We take immense pride in nurturing your vitality, dedicating ourselves to supporting your health an...</p>
+              <p class="text-gray-700 text-xs">24 august 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class="bg-[#5ABEAF] text-white px-8 py-3 rounded-full mt-10 hover:bg-[#3fae9a] transition">
+            Show more
+          </button>
+        </div>
+      </section>
+      <section class="schedule w-full mt-16">
+        <div class="flex flex-col md:flex-row items-center justify-between bg-[#64D3C2] p-6 md:p-12 rounded-2xl gap-8">
+          <div class="w-full md:w-1/2 text-start flex flex-col gap-5 items-start">
+            <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight">
+              Schedule Your Appointment with us
+            </h1>
+            <p class="text-base sm:text-lg text-gray-600 max-w-xl">
+              We’re here to help! Whether you have inquiries about our services, need assistance, or simply want more information, feel free to reach out.
+            </p>
+            <button class="px-8 py-3 rounded-full text-white bg-black w-fit hover:bg-gray-800 transition">
+              Get Started
+            </button>
+          </div>
+          <img src="images/Contents.png" alt="" class="w-full md:w-1/2 max-w-xs md:max-w-md rounded-xl" />
+        </div>
+      </section>
+      <section class="footer w-full mt-16">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between w-full max-w-6xl mx-auto gap-8 md:gap-0 px-2">
+          <div>
+            <h4 class="text-black font-bold mb-2">Solutions</h4>
+            <ul>
+              <li class="text-gray-500">Electronic Health</li>
+              <li class="text-gray-500">Telehealth Services</li>
+              <li class="text-gray-500">Billing and invoicing</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold mb-2">Company</h4>
+            <ul>
+              <li class="text-gray-500">About us</li>
+              <li class="text-gray-500">Blog</li>
+              <li class="text-gray-500">Career</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold mb-2">Get In Touch</h4>
+            <ul>
+              <li class="text-gray-500"><i class="fa-solid fa-phone text-gray-700"></i> (406) 555-0120</li>
+              <li class="text-gray-500"><i class="fa-solid fa-envelope text-gray-700"></i> hipixem@gmail.com</li>
+              <li class="text-gray-500"><i class="fa-solid fa-location-dot text-gray-700"></i> 3517 W. Gray St. Utica, Pennsylvania 57867</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold mb-2">Follow Us on</h4>
+            <div class="flex space-x-4 text-2xl text-gray-600 mt-2">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <hr class="border-gray-300 my-7 w-full max-w-6xl mx-auto" />
+        <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto gap-4 px-2">
+          <span class="text-gray-600">© 2024 Omail, Inc. All rights reserved</span>
+          <div class="text-green-500 text-3xl flex items-center gap-3">
+            <i class="fas fa-heart-pulse"></i>
+            <h2 class="text-black text-xl font-bold">Mecare</h2>
+          </div>
+          <div class="flex gap-4">
+            <span class="text-gray-600 cursor-pointer hover:underline">Terms of services</span>
+            <span class="text-gray-600 cursor-pointer hover:underline">Privacy Policy</span>
           </div>
         </div>
       </section>
     </div>
-
     <script type="module" src="/src/main.ts"></script>
   </body>
-</html>
