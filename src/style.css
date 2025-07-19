@@ -1,3 +1,86 @@
 @import "tailwindcss";
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@media (max-width: 640px) {
+  .hero {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .title {
+    margin-bottom: 14px;
+  }
+
+  .hero-box {
+    padding-top: 23px !important;
+    padding-bottom: 23px !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+  .mini-info-box {
+    width: 231px !important;
+    margin-bottom: 22px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .mini-info-box1 {
+    font-size: 10px !important;
+
+    img {
+      width: 17px !important;
+      height: 17px !important;
+    }
+  }
+
+  .hero-bottom-img-1 {
+    width: 188px;
+    height: 188px;
+  }
+
+  .big-info-text {
+    width: 155px;
+    font-size: 10px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 10px;
+  }
+
+  .big-info-box {
+    flex-direction: column !important;
+    align-items: start;
+  }
+
+  .hero-doctor {
+    width: 164px;
+    height: 164px;
+    left: 88% !important;
+  }
+
+  .hero-bottom {
+    flex-direction: column !important;
+    gap: 20px;
+    margin-top: 20px;
+    width: 327px;
+  }
+
+  .big-info-button {
+    font-size: 10px !important;
+    padding: 9px 19px !important;
+  }
+
+  .hero-bottom-title {
+    font-size: 20px;
+  }
+
+  .box {
+    width: 100% !important;
+    padding: 20px;
+
+    button {
+      padding: 20px;
+    }
+  }
+}
+

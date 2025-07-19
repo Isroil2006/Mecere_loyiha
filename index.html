@@ -8,7 +8,285 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div class="isroil_work"></div>
+    <div class="isroil_work">
+      <section class="header flex pt-[23px] pb-[23px]">
+        <div
+          class="navbar px-4 flex items-center justify-between ml-auto mr-auto 2xl:w-[1400px] xl:w-[1280px] lg:w-[1120px] md:w-[768px] sm:w-[640px] w-[375px]"
+        >
+          <div class="logo-box flex gap-2 items-center">
+            <img src="./images/Logo.svg" alt="" />
+            <a
+              href="#"
+              class="logo-text font-['Open sans'] text-[#181B39] text-[24px] font-bold"
+              >Mecare</a
+            >
+          </div>
+
+          <ul class="list gap-[38px] hidden md:flex">
+            <li class="list-item">
+              <a
+                class="link font-['Open sans'] font-medium text-[#0D1525] text-[16px]"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="list-item">
+              <a
+                class="link font-['Open sans'] font-medium text-[#0D1525] text-[16px]"
+                href="#"
+                >Service</a
+              >
+            </li>
+
+            <li class="list-item">
+              <a
+                class="link font-['Open sans'] font-medium text-[#0D1525] text-[16px]"
+                href="#"
+                >Doctors</a
+              >
+            </li>
+
+            <li class="list-item">
+              <a
+                class="link font-['Open sans'] font-medium text-[#0D1525] text-[16px]"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+          </ul>
+
+          <div class="btns-box w-[300px] flex justify-between hidden md:flex">
+            <button
+              class="text-[#1C404C] ml-2 font-['Open sans'] font-medium text-[16px] cursor-pointer"
+            >
+              Join Doctor
+            </button>
+            <button
+              class="text-[white] font-['Open sans'] font-medium text-[16px] bg-[#5abeaf] py-[12px] px-[24px] cursor-pointer rounded-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+            >
+              Get Appointment
+            </button>
+          </div>
+
+          <button
+            class="burger-btn flex cursor-pointer md:hidden w-[32px] h-[32px] border-3 rounded-[10px] border-[#e3e3e9]"
+          >
+            <img src="./images/burger.png" alt="#" />
+          </button>
+        </div>
+      </section>
+
+      <section class="hero flex-col">
+        <div
+          class="relative overflow-hidden hero-box pt-[75px] rounded-[20px] px-[90px] lg:px-[32px] pb-[45px] ml-auto mr-auto 2xl:w-[1400px] xl:w-[1280px] lg:w-[1120px] md:w-[768px] sm:w-[640px] ,max-w-[375px]"
+          style="
+            background: linear-gradient(
+              204deg,
+              rgba(100, 211, 194, 1) 0%,
+              rgba(240, 244, 218, 1) 100%
+            );
+          "
+        >
+          <h1 class="title mb-[50px]">
+            <img class="relative z-[2]" src="./images/hero-title.svg" alt="" />
+          </h1>
+          <div
+            class="mini-info-box relative z-[2] flex w-[650px] justify-between ml-auto mr-auto mb-[146px]"
+          >
+            <div
+              class="mini-info-box1 flex items-center gap-2 font-['Open sans'] text-[22px] text-[#181B39]"
+            >
+              <img src="./images/hero-info-1.svg" alt="" />Reduce HbA1c
+            </div>
+            <div
+              class="mini-info-box1 flex items-center gap-2 font-['Open sans'] text-[22px] text-[#181B39]"
+            >
+              <img src="./images/hero-info-2.svg" alt="" />No more medications
+            </div>
+          </div>
+
+          <div class="big-info-box flex w-full justify-between items-center">
+            <p
+              class="big-info-text max-w-[355px] font-['Inter'] text-[18px] lg:text-[16px] lg:max-w-[310px]"
+            >
+              Prioritizing your well-being with top-tier medical expertise and
+              compassionate care tailored to your needs
+            </p>
+
+            <button
+              class="big-info-button text-[white] relative z-[2] font-['Open sans'] font-medium text-[16px] bg-[#5abeaf] py-[12px] px-[24px] cursor-pointer rounded-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+            >
+              Schedule An Appointment
+            </button>
+          </div>
+
+          <img
+            class="hero-bottom-img-1 absolute top-0 left-0 z-[1]"
+            src="./images/hero-bg-left.svg"
+            alt=""
+          />
+          <img
+            class="hero-bottom-img-1 absolute bottom-0 right-0 z-[1]"
+            src="./images/hero-bg-rigth.svg"
+            alt=""
+          />
+          <img
+            class="hero-doctor absolute left-[50%] transform -translate-x-1/2 bottom-0 z-[4]"
+            src="./images/hero-doctor.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="hero-bottom flex mt-[40px] justify-between items-center 2xl:w-[1400px] xl:w-[1280px] lg:w-[1120px] md:w-[928px] w-[375px] ml-auto mr-auto"
+        >
+          <div
+            class="box 2xl:w-[438px] xl:w-[405px] lg:w-[360px] px-[48px] py-[31px] bg-[#fddbdb] rounded-[20px]"
+          >
+            <div class="flex items-center justify-between">
+              <h3
+                class="hero-bottom-title font-['Open sans'] text-[24px] font-bold"
+              >
+                Qualified Doctors
+              </h3>
+              <span
+                class="flex items-center justify-center w-[60px] h-[60px] rounded-[50%] bg-[white]"
+                ><img src="./images/hero-bottom-img.svg" alt=""
+              /></span>
+            </div>
+            <p class="w-[260px]">
+              Schedule your appointment with your health consultation with the
+              best doctors in medicare
+            </p>
+            <button
+              class="max-w-[340px] bg-[#0D1525] text-[white] font-['Inter'] py-[13px] px-[50px] lg:py-[10px] lg:px-[30px] rounded-[20px] mt-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+            >
+              Scheduling an Appointment →
+            </button>
+          </div>
+
+          <div
+            class="box 2xl:w-[438px] xl:w-[405px] lg:w-[360px] px-[48px] py-[31px] bg-[#cff1ec] rounded-[20px]"
+          >
+            <div class="flex items-center justify-between">
+              <h3 class="font-['Open sans'] text-[24px] font-bold">
+                Consultation
+              </h3>
+              <span
+                class="flex items-center justify-center w-[60px] h-[60px] rounded-[50%] bg-[white]"
+                ><img src="./images/hero-bottom-img.svg" alt=""
+              /></span>
+            </div>
+            <p class="w-[260px]">
+              Schedule your appointment with your health consultation with the
+              best doctors in medicare
+            </p>
+            <button
+              class="max-w-[340px] bg-[#0D1525] text-[white] font-['Inter'] py-[13px] px-[50px] lg:py-[10px] lg:px-[30px] rounded-[20px] mt-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+            >
+              Scheduling an Appointment →
+            </button>
+          </div>
+
+          <div
+            class="box 2xl:w-[438px] xl:w-[405px] lg:w-[360px] px-[48px] py-[31px] bg-[#fff6ca] rounded-[20px]"
+          >
+            <div class="flex items-center justify-between">
+              <h3 class="font-['Open sans'] text-[24px] font-bold">
+                24/7 Support
+              </h3>
+              <span
+                class="flex items-center justify-center w-[60px] h-[60px] rounded-[50%] bg-[white]"
+                ><img src="./images/hero-bottom-img.svg" alt=""
+              /></span>
+            </div>
+            <p class="w-[260px]">
+              Schedule your appointment with your health consultation with the
+              best doctors in medicare
+            </p>
+            <button
+              class="max-w-[340px] bg-[#0D1525] text-[white] font-['Inter'] py-[13px] px-[50px] lg:py-[10px] lg:px-[30px] rounded-[20px] mt-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+            >
+              Scheduling an Appointment →
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="health xl:pt-[80px] sm:mt-[40px] mt-[40px]">
+        <h2
+          class="title font-['Inter'] font-bold text-center text-[#0D1525] 2xl:text-[60px] xl:text-[48px] lg:text-[48px] md:text-[48px] sm:text-[32px]"
+        >
+          Our health analytics solutions
+        </h2>
+        <p
+          class="health-text font-['Inter'] pb-[60px] text-center text-[#0D1525] 2xl:text-[24px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[16px] md:w-[564px] sm:w-[375px] mr-auto ml-auto"
+        >
+          Our platform streamlines expense management here’s why it’s essential
+          for your business finances.
+        </p>
+
+        <div class="health-ad-boxes flex-col">
+          <div class="flex justify-center gap-[40px]">
+            <div
+              class="rounded-[15px] bg-[#6AD4C3] 2xl:max-w-[773px]  2xl:px-[53px] 2xl:py-[56px] xl:px-[47px] xl:py-[35px] lg:px-[30px] lg:py-[24px] md:p-[20px] sm:p-[20px]"
+            >
+              <h3
+                class="font-['Open sans'] text-[white] 2xl:text-[28px] xl:text-[32px] lg:text-[26px] sm:text-[20px] font-bold"
+              >
+                Analytics & Risk Stratification
+              </h3>
+              <p
+                class="font-['Inter'] text-[white] 2xl:text-[18px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px]"
+              >
+                Data to predict potential health issues and categorize patients
+                based on their risk factors. It emphasizes proactive healthcare
+                and resource collocation. categorize patients based on their
+                risk factors.
+              </p>
+              <button
+                class="bg-[white] text-[#0D1525] font-['Inter'] py-[13px] px-[50px] lg:py-[10px] lg:px-[30px] rounded-[20px] mt-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+              >
+                Learn More →
+              </button>
+            </div>
+
+            <div class="w-[579px]">
+              <img class="w-full" src="./images/health-img-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="flex justify-center gap-[40px] mt-[40px]">
+            <div >
+              <img class="w-[402px] h-[346px]" src="./images/health-img-2.png" alt="" />
+            </div>
+            <div class="bg-[#007ECD] max-w-[508px] rounded-[20px] p-[40px]">
+              <h3
+                class="font-['Open sans'] text-[white] 2xl:text-[28px] xl:text-[32px] lg:text-[26px] sm:text-[20px] font-bold"
+              >
+                Cost Optimization
+              </h3>
+              <p
+                class="font-['Inter'] text-[white] 2xl:text-[18px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px]"
+              >
+                This service focuses on using analytics to improve the quality
+                of care and identify areas for reduction. It appeals to
+                healthcare provider seeking.
+              </p>
+              <button
+                class="bg-[white] text-[#0D1525] font-['Inter'] py-[13px] px-[50px] lg:py-[10px] lg:px-[30px] rounded-[20px] mt-[30px] hover:bg-[#1C404C] transition duration-300 ease"
+              >
+                Learn More →
+              </button>
+            </div>
+            <div class="max-w-[402px]">
+              <img class="w-[402px] h-[346px]"  src="./images/health-img-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <div class="ismoil_work"></div>
 
     <script type="module" src="/src/main.ts"></script>
